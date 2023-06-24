@@ -50,7 +50,7 @@ def handle_generate_csv():
     api_key = '1228be45880d463b8f853053231606'
     location = city_dropdown.get()
     api_data = fetch_data_from_api(api_key, location)
-    filename = 'weather_data122342.csv'
+    filename = 'weather_data.csv'
     convert_to_csv(api_data, filename)
     result_label.config(text=f"Data saved successfully to {filename}.")
     
