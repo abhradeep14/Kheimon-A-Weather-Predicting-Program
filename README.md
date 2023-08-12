@@ -1,57 +1,35 @@
-# Kheimon-A-Weather-Predicting-Program
+# Kheimon: A Weather Prediction Program
 
-A Python-based Weather Predication App which uses Linear Regression Algorithm to predict the weather to an accuracy nearest to 1 and is extreamely accurate its is comperatively a simpler machine learning algorithm which uses linear relationship to commute further data.It also uses a very dynamic Weather API to collect recent weather data(15 days by default) and stores it as a CSV(comma-seperated-value) file format for the python program to process and then display graphically and use it to diplay the weather for N days and has the capibility to work on 9 major Indian cities.
+Kheimon is a Python-based Weather Prediction App that employs the Linear Regression Algorithm to predict weather with an accuracy nearest to 1. This relatively simpler machine learning algorithm utilizes linear relationships to extrapolate further data. The program integrates a dynamic Weather API to gather recent weather data (default: 15 days) and stores it in a CSV (Comma-Separated Value) file format. This data is then processed by the Python program for graphical display, facilitating weather forecasting for N days. Additionally, Kheimon has the capability to function across 9 major Indian cities.
 
-## Features:
+## Features
 
-Has a simple Python GUI(General User Interface) based on Tkinter library.
+- **Simple Python GUI:** The program features a user-friendly interface based on the Tkinter library.
+  
+- **Streamlined API Integration:** Kheimon employs an API-based approach to dynamically collect weather data from the past 15 days, dependent on the current date. This data is saved as a CSV file on the local device.
+  
+- **Data Retrieval:** Historical weather data for linear regression analysis is retrieved from WeatherApi.com, offering free access for simplified data parsing.
+  
+- **Multi-City Compatibility:** The model currently functions successfully in 9 Indian cities, providing accurate weather data.
+  
+- **Data Manipulation and Visualization:** Kheimon leverages crucial libraries like Numpy, Pandas, and Matplotlib for dataset manipulation and data visualization. It employs scatter plots to visually represent temperature and windspeed data, the core parameters for the linear regression model's prediction.
+  
+- **Temperature and Windspeed Prediction:** Utilizing the linear regression model and Weather-API data, the program predicts temperature and windspeed. The outcomes are presented through tables and graphical representations.
+  
+## Setup
 
-Has A streamlined API-based program which collects weather data from last 15 days dynamically depending on the current date and saves it in a CSV file in local device. 
+To ensure proper functionality, Kheimon requires Python 3.11.2. Follow these steps to set up the program:
 
-The data used for linear regression is also retrived from **WeatherApi.com** as it offers historical weather data for analysis for free and easier to call data parsing purposes.
+1. Navigate to the project directory using the command line:
+   
+   ```bash
+   cd Kheimon
+2. Install dependencies by running:
+    ```python
+    python dependencies.py
 
-The model currently works sucessfully on 9 Indian Cities and program is able to provide accurate data for the cities.
-
-It also uses **Numpy,Pandas and Matplotlib** libraries for dataset manipulation and for data visualisation a crucial part of Machine Learning Algorithm.Its uses a scatter plot to plot *Temperature and Windspeed* , two parameters on basis of which the linear regression model predicts the temperature and windspeed and also plots the data in simple graphs.
-
-Tablle also diplays the predicted temperature and windspeed as predicted using linear regression and data from Weather-API.
-
-## Setup:
-
-**Needs python 3.11.2 to work properly:**
-Navigate to the project directory:
-
-```cd Kheimon```
-
-```python dependencies.py```
-
-```python complete_project.py```
-
-automatically works in command line.
-
-## Tkinter Windows:
-
-![Python ScreenShot1](https://github.com/abhradeep14/Kheimon-A-Weather-Predicting-Program/assets/77497523/70438fea-0ccd-42aa-bb9a-07afcdcf92bd)
-
-
-**Cities Currently Available For Analysis:**
-
-![Python Screenshot 3](https://github.com/abhradeep14/Kheimon-A-Weather-Predicting-Program/assets/77497523/3b349541-18b6-4a09-a6eb-3dc392e7fb22)
-
-
-
-
-![Python Screenshot 2](https://github.com/abhradeep14/Kheimon-A-Weather-Predicting-Program/assets/77497523/be0472be-960e-4664-9a52-23df3d6c7703)
-
-
-
-
-![Python Screenshot 4](https://github.com/abhradeep14/Kheimon-A-Weather-Predicting-Program/assets/77497523/13017b2e-bf64-40cc-94a4-c3545f89307d)
-
-
-
-
-
-
+3. Launch the program by executing:
+   ```python
+   python complete_project.py
 
 
