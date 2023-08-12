@@ -28,8 +28,31 @@ To ensure proper functionality, Kheimon requires Python 3.11.2. Follow these ste
     ```python
     python dependencies.py
 
+
 3. Launch the program by executing:
    ```python
    python complete_project.py
+
+## Tkinter Windows:
+
+![Python ScreenShot1](https://github.com/abhradeep14/Kheimon-A-Weather-Predicting-Program/assets/77497523/70438fea-0ccd-42aa-bb9a-07afcdcf92bd)
+
+
+**Cities Currently Available For Analysis:**
+
+![Python Screenshot 3](https://github.com/abhradeep14/Kheimon-A-Weather-Predicting-Program/assets/77497523/3b349541-18b6-4a09-a6eb-3dc392e7fb22)
+
+
+
+
+![Python Screenshot 2](https://github.com/abhradeep14/Kheimon-A-Weather-Predicting-Program/assets/77497523/be0472be-960e-4664-9a52-23df3d6c7703)
+
+
+
+
+![Python Screenshot 4](https://github.com/abhradeep14/Kheimon-A-Weather-Predicting-Program/assets/77497523/13017b2e-bf64-40cc-94a4-c3545f89307d)
+
+
+
 
 
